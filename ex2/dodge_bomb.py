@@ -82,7 +82,6 @@ def main():
 
         if kk_rct.colliderect(bb_rct): # こうかとんと爆弾が衝突したら
             gameover(screen)
-            print("ゲームオーバー")
             time.sleep(5)
             return
 
