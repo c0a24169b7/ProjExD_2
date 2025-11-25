@@ -40,6 +40,11 @@ def gameover(screen: pg.Surface) -> None:
     time.sleep(5)
 #ゲームオーバー画面の追加
 
+
+def init_bb_imgs() -> tuple[list[pg.Surface], list[int]]:
+    """複数の爆弾画像とその速度リストを初期化する関数"""
+
+
 def check_bound(rct: pg.Rect) -> tuple[bool, bool]:
     """
     引数：こうかとんRectまたは爆弾Rect
